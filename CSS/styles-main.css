@@ -483,9 +483,9 @@ button {
 
 /* Our Team */
 
-.employees {
+/* .employees {
 	background-color: var(--secondary-background-color);
-}
+} */
 
 .employees-title {
 	margin-bottom: 72px;
@@ -505,35 +505,35 @@ button {
 	display: flex;
 }
 
-.employees-item {
+/* .employees-item {
 	background-color: var(--background-color);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
-}
+} */
 
 .employees-item:not(:last-child) {
 	margin-right: 24px;
 }
 
-.employees-name,
+/* .employees-name,
 .employees-text {
 	text-align: center;
-}
+} */
 
-.employees-info {
+/* .employees-info {
 	padding-top: 32px;
 	padding-bottom: 32px;
-}
+} */
 
-.employeer-icon-item {
+/* .employeer-icon-item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
 	margin-top: 8px;
-}
+} */
 
-.icon-employees-link {
+/* .icon-employees-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -550,7 +550,7 @@ button {
 .icon-employees-link:hover,
 .icon-employees-link:focus {
 	background-color: var(--accent-hover-color);
-}
+} */
 
 /* Customers */
 
