@@ -194,7 +194,7 @@ button {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } */
 
-.backdrop {
+/* .backdrop {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -208,7 +208,7 @@ button {
 	opacity: 0;
 	pointer-events: none;
 	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .modal {
 	position: absolute;
@@ -224,7 +224,7 @@ button {
 	border-radius: 4px;
 }
 
-.modal-button {
+/* .modal-button {
 	position: absolute;
 	top: 24px;
 	right: 24px;
@@ -402,7 +402,7 @@ button {
 .modal-button-send:focus {
 	background: var(--accent-hover-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* Features */
 
