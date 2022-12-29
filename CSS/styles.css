@@ -90,12 +90,26 @@ button {
 	color: var(--accent-color);
 }
 
-.nav-list,
+/* .nav-list,
 .contacts-nav {
+	display: none;
+} */
+
+.hidden-nav{
 	display: none;
 }
 
-.menu-burger {
+.hidden-nav{
+	position: absolute;
+	top: 0;
+	left: 0;;
+	width: 428px;
+	padding: 0;
+	margin: 0;
+	background-color: var(--background-color);
+}
+
+.menu-button {
 	position: absolute;
 	top: 24px;
 	right: 24px;
@@ -103,6 +117,90 @@ button {
 	width: 32px;
 	height: 22px;
 	background-color: var(--background-color);
+}
+
+.menu-button.is-open .hidden-nav{
+	display: block;
+}
+
+.menu-button-close{
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: #E7E9FC;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-list{
+	padding-top: 80px;
+	margin-left: 40px;
+	padding-bottom: 284px;
+}
+
+.item-nav-list{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+
+.item-nav-list:not(:last-child){
+	margin-bottom: 40px;
+}
+
+.nav-list-active{
+	color: var(--accent-hover-color);
+}
+
+.nav-list-notactive{
+	color: var(--secondary-text-color);
+}
+
+.nav-list-notactive:hover,
+.nav-list-notactive:focus {
+	color: var(--accent-color);
+}
+
+.contacts-nav{
+	margin-left: 40px;
+}
+
+.contacts-nav-link{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--main-text-color);
+}
+
+.item-contacts-nav:not(:last-child){
+	padding-bottom: 40px;
+}
+
+.item-contacts-nav:last-child{
+	padding-bottom: 48px;
+}
+
+
+.contacts-nav-link:hover,
+.contacts-nav-link:focus{
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.11;
+	text-transform: capitalize;
+	color: var(--accent-color);
+}
+
+.header-icon-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 56px;
+	margin-bottom: 40px;
 }
 
 /* Hero */
@@ -186,8 +284,8 @@ button {
 	transform: translate(-50%, -50%);
 	width: 392px;
 	height: 579px;
-	padding-left: 30px;
-	padding-right: 18px;
+	padding-left: 16px;
+	padding-right: 16px;
 	background-color: #fcfcfc;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
