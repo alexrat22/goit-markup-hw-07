@@ -100,7 +100,7 @@ button {
 	margin-right: 40px;
 } */
 
-.nav-notactive {
+/* .nav-notactive {
 	color: var(--secondary-text-color);
 	transition-property: color;
 	transition-duration: 250ms;
@@ -110,9 +110,9 @@ button {
 .nav-notactive:hover,
 .nav-notactive:focus {
 	color: var(--accent-color);
-}
+} */
 
-.nav-active {
+/* .nav-active {
 	position: relative;
 	color: var(--accent-color);
 	padding: 28px 0;
@@ -127,15 +127,15 @@ button {
 	height: 4px;
 	border-radius: 2px;
 	background-color: var(--accent-color);
-}
+} */
 
 .contacts-nav {
 	margin-left: auto;
 }
 
-.contacts-nav .item:first-child {
+/* .contacts-nav .item:first-child {
 	margin-right: 40px;
-}
+} */
 
 /* Page "Studio" */
 
