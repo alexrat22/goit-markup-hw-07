@@ -92,13 +92,13 @@ button {
 	color: var(--accent-color);
 } */
 
-.nav-list {
+/* .nav-list {
 	font-weight: 700;
 }
 
 .nav-list .item:not(:last-child) {
 	margin-right: 40px;
-}
+} */
 
 .nav-notactive {
 	color: var(--secondary-text-color);

@@ -60,11 +60,22 @@ button {
 	padding-left: 16px;
 }
 
+@media screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
+}
+
 /* Header */
+
+.header-nav,
+.main-nav {
+	display: flex;
+}
 
 .header-main {
 	display: flex;
-	width: 428px;
+	width: 100%px;
 	margin-right: auto;
 	margin-left: auto;
 	border-bottom: 1px solid var(--footer-text);
@@ -82,9 +93,14 @@ button {
 	line-height: 1.33;
 	color: var(--secondary-text-color);
 	word-spacing: -4px;
-	/* margin-right: 77px; */
 	padding-top: 24px;
 	padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+	.logo {
+		margin-right: 77px;
+	}
 }
 
 .logo-web {
@@ -96,14 +112,21 @@ button {
 	display: none;
 }
 
-.mobile-menu {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 428px;
-	padding: 0;
-	margin: 0;
-	background-color: var(--background-color);
+@media screen and (min-width: 768px) {
+	.nav-list {
+		display: flex;
+		align-items: center;
+		font-weight: 700;
+	}
+
+	.contacts-nav {
+		display: block;
+		margin-left: 118px;
+	}
+
+	.contacts-nav .item:first-child {
+		margin-right: 40px;
+	}
 }
 
 .menu-button {
@@ -118,8 +141,24 @@ button {
 	background-color: transparent;
 }
 
+@media screen and (min-width: 768px) {
+	.menu-button {
+		display: none;
+	}
+}
+
 .mobile-menu {
 	display: none;
+}
+
+.mobile-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 428px;
+	padding: 0;
+	margin: 0;
+	background-color: var(--background-color);
 }
 
 .menu-button-close {
@@ -215,6 +254,12 @@ button {
 	background-position: center;
 	background-size: cover;
 	background-color: var(--secondary-text-color);
+}
+
+@media screen and (min-width: 768px) {
+	.hero {
+		max-width: 768px;
+	}
 }
 
 .hero-title {
