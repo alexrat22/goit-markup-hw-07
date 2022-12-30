@@ -90,19 +90,10 @@ button {
 	color: var(--accent-color);
 }
 
-/* .nav-list,
-.contacts-nav {
-	display: none;
-} */
-
-.hidden-nav{
-	display: none;
-}
-
-.hidden-nav{
+.mobile-menu {
 	position: absolute;
 	top: 0;
-	left: 0;;
+	left: 0;
 	width: 428px;
 	padding: 0;
 	margin: 0;
@@ -110,37 +101,46 @@ button {
 }
 
 .menu-button {
+	display: inline-flex;
 	position: absolute;
 	top: 24px;
 	right: 24px;
 	padding: 0;
+	margin: 0;
 	width: 32px;
 	height: 22px;
-	background-color: var(--background-color);
+	background-color: transparent;
 }
 
-.menu-button.is-open .hidden-nav{
+.mobile-menu {
+	display: none;
+}
+
+.mobile-menu.is-open .mobile-menu {
 	display: block;
 }
+/* .menu-button.is-open .mobile-menu {
+	display: block;
+} */
 
-.menu-button-close{
+.menu-button-close {
 	position: absolute;
 	top: 40px;
 	right: 40px;
 	width: 24px;
 	height: 24px;
 	border-radius: 50%;
-	background: #E7E9FC;
+	background: #e7e9fc;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.nav-list{
+.nav-list {
 	padding-top: 80px;
 	margin-left: 40px;
 	padding-bottom: 284px;
 }
 
-.item-nav-list{
+.item-nav-list {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -148,15 +148,15 @@ button {
 	text-transform: capitalize;
 }
 
-.item-nav-list:not(:last-child){
+.item-nav-list:not(:last-child) {
 	margin-bottom: 40px;
 }
 
-.nav-list-active{
+.nav-list-active {
 	color: var(--accent-hover-color);
 }
 
-.nav-list-notactive{
+.nav-list-notactive {
 	color: var(--secondary-text-color);
 }
 
@@ -165,11 +165,11 @@ button {
 	color: var(--accent-color);
 }
 
-.contacts-nav{
+.contacts-nav {
 	margin-left: 40px;
 }
 
-.contacts-nav-link{
+.contacts-nav-link {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -177,17 +177,16 @@ button {
 	color: var(--main-text-color);
 }
 
-.item-contacts-nav:not(:last-child){
+.item-contacts-nav:not(:last-child) {
 	padding-bottom: 40px;
 }
 
-.item-contacts-nav:last-child{
+.item-contacts-nav:last-child {
 	padding-bottom: 48px;
 }
 
-
 .contacts-nav-link:hover,
-.contacts-nav-link:focus{
+.contacts-nav-link:focus {
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 1.11;
