@@ -62,9 +62,9 @@ button {
 
 /* Header */
 
-.header-nav,
+/* .header-nav,
 .main-nav,
-.nav-list,
+.nav-list, */
 .contacts-nav {
 	display: flex;
 	align-items: center;
@@ -419,7 +419,7 @@ button {
 	overflow: hidden;
 } */
 
-.features-list {
+/* .features-list {
 	display: flex;
 }
 
@@ -429,7 +429,7 @@ button {
 
 .features-item:not(:last-child) {
 	margin-right: 24px;
-}
+} */
 
 .image-features {
 	display: flex;
@@ -501,9 +501,9 @@ button {
 	color: var(--secondary-text-color);
 }
 
-.employees-list {
+/* .employees-list {
 	display: flex;
-}
+} */
 
 /* .employees-item {
 	background-color: var(--background-color);
