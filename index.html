@@ -26,64 +26,74 @@
 						STUDIO
 					</a>
 
-					<button type="button" class="menu-button js-open-menu menu-toggle">
-						<svg width="32" height="22">
-							<use class="open-menu" href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+					<ul class="nav-list">
+						<li class="item-nav-list"><a href="./index.html" class="nav-list-active">Studio</a></li>
+						<li class="item-nav-list"><a href="./portfolio.html" class="nav-list-notactive">Portfolio</a></li>
+						<li class="item-nav-list"><a href="" class="nav-list-notactive">Contacts</a></li>
+					</ul>
+				</nav>
+				<ul class="contacts-nav">
+					<li class="item-contacts-nav"><a href="tel:+110001111111" class="contacts-nav-link">+11 (000) 111-11-11</a></li>
+					<li class="item-contacts-nav"><a href="mailto:info@devstudio.com" class="contacts-nav-link">info@devstudio.com</a></li>
+				</ul>
+
+				<button type="button" class="menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+					<svg width="32" height="22">
+						<use class="open-menu" href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+					</svg>
+				</button>
+
+				<div class="mobile-menu js-menu-container">
+					<button type="button" class="menu-button-close js-close-menu">
+						<svg width="8" height="8">
+							<use class="icon-close" href="./images/icons.svg#icon-close"></use>
 						</svg>
 					</button>
 
-					<div class="mobile-menu menu-toggle js-menu-container">
-						<button type="button" class="menu-button-close js-close-menu">
-							<svg width="8" height="8">
-								<use class="icon-close" href="./images/icons.svg#icon-close"></use>
-							</svg>
-						</button>
+					<ul class="nav-list-mobile">
+						<li class="item-nav-list-mobile"><a href="./index.html" class="nav-list-active">Studio</a></li>
+						<li class="item-nav-list-mobile"><a href="./portfolio.html" class="nav-list-notactive">Portfolio</a></li>
+						<li class="item-nav-list-mobile"><a href="" class="nav-list-notactive">Contacts</a></li>
+					</ul>
 
-						<ul class="nav-list">
-							<li class="item-nav-list"><a href="./index.html" class="nav-list-active">Studio</a></li>
-							<li class="item-nav-list"><a href="./portfolio.html" class="nav-list-notactive">Portfolio</a></li>
-							<li class="item-nav-list"><a href="" class="nav-list-notactive">Contacts</a></li>
+					<ul class="contacts-nav-mobile">
+						<li class="item-contacts-nav-mobile"><a href="tel:+110001111111" class="contacts-nav-link">+11 (000) 111-11-11</a></li>
+						<li class="item-contacts-nav-mobile"><a href="mailto:info@devstudio.com" class="contacts-nav-link">info@devstudio.com</a></li>
+					</ul>
+
+					<div>
+						<ul class="header-icon-item">
+							<li>
+								<a href="" class="icon-employees-link">
+									<svg class="icon-employees" width="24" height="24">
+										<use href="./images/icons.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="" class="icon-employees-link">
+									<svg class="icon-employees" width="24" height="24">
+										<use href="./images/icons.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="" class="icon-employees-link">
+									<svg class="icon-employees" width="24" height="24">
+										<use href="./images/icons.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="" class="icon-employees-link">
+									<svg class="icon-employees" width="24" height="24">
+										<use href="./images/icons.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
 						</ul>
-
-						<ul class="contacts-nav">
-							<li class="item-contacts-nav"><a href="tel:+110001111111" class="contacts-nav-link">+11 (000) 111-11-11</a></li>
-							<li class="item-contacts-nav"><a href="mailto:info@devstudio.com" class="contacts-nav-link">info@devstudio.com</a></li>
-						</ul>
-
-						<div>
-							<ul class="header-icon-item">
-								<li>
-									<a href="" class="icon-employees-link">
-										<svg class="icon-employees" width="24" height="24">
-											<use href="./images/icons.svg#icon-instagram"></use>
-										</svg>
-									</a>
-								</li>
-								<li>
-									<a href="" class="icon-employees-link">
-										<svg class="icon-employees" width="24" height="24">
-											<use href="./images/icons.svg#icon-twitter"></use>
-										</svg>
-									</a>
-								</li>
-								<li>
-									<a href="" class="icon-employees-link">
-										<svg class="icon-employees" width="24" height="24">
-											<use href="./images/icons.svg#icon-facebook"></use>
-										</svg>
-									</a>
-								</li>
-								<li>
-									<a href="" class="icon-employees-link">
-										<svg class="icon-employees" width="24" height="24">
-											<use href="./images/icons.svg#icon-linkedin"></use>
-										</svg>
-									</a>
-								</li>
-							</ul>
-						</div>
 					</div>
-				</nav>
+				</div>
 			</div>
 		</header>
 
