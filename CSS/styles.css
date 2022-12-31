@@ -53,6 +53,13 @@ button {
 	padding-bottom: 96px;
 }
 
+@media screen and (min-width: 1200px) {
+	.section  {
+		padding-top: 120px;
+		padding-bottom: 120px;
+}
+}
+
 .container {
 	width: 100%;
 	padding: 0 15px;
@@ -116,15 +123,28 @@ button {
 	color: var(--main-text-color);
 }
 
+@media screen and (min-width: 768px){
+	.logo{
+	margin-right: 120px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.contacts-nav-link{
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+	
+}
+
 .contacts-nav-link:hover,
 .contacts-nav-link:focus {
 	color: var(--accent-color);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-	.logo {
-		margin-right: 120px;
-	}
 }
 
 .logo-web {
@@ -138,18 +158,10 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
-	.logo-web {
-		margin-left: 156px;
-	}
-
 	.item-nav-list:first-child {
 		margin-left: 76px;
 	}
-
-	.contacts-nav {
-		margin-right: 156px;
 	}
-}
 
 .nav-list,
 .contacts-nav {
@@ -171,15 +183,6 @@ button {
 		margin-left: auto;
 		padding-top: 24px;
 	}
-}
-
-@media screen and (min-width: 1200px) {
-	.item-nav-list {
-		font-weight: 500;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
-	}
 
 	.nav-list-active {
 		position: relative;
@@ -196,6 +199,15 @@ button {
 		height: 4px;
 		border-radius: 2px;
 		background-color: var(--accent-color);
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.item-nav-list {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
 	}
 
 	.contacts-nav {
@@ -348,7 +360,7 @@ button {
 
 @media screen and (min-width: 1200px) {
 	.hero {
-		max-width: 1158px;
+		max-width: 1440px;
 		padding-top: 188px;
 		padding-bottom: 188px;
 	}
@@ -901,15 +913,26 @@ button {
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	.footer-main {
+		padding-left: 15px;
+	}
+
+	.logo-web-footer {
+		margin-left: 0;
+	}
+}
+
 .footer-logo-text {
 	margin-bottom: 72px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1200px) {
 	.footer-logo-text {
-		/* text-align: center; */
+		margin-bottom: 0;
 	}
 }
+
 
 .logo-footer {
 	font-family: "Raleway";
@@ -954,6 +977,14 @@ button {
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	.footer-social {
+		margin-left: 120px;
+	}
+}
+
+
+
 .footer-social-title {
 	font-weight: 600;
 	line-height: 1.5;
@@ -985,6 +1016,13 @@ button {
 .icon-footer-link:hover,
 .icon-footer-link:focus {
 	background-color: var(--hover-color);
+}
+
+@media screen and (min-width:1200px) {
+	.footer-form{
+		margin-left: 80px;
+	}
+	
 }
 
 .footer-form-title {
