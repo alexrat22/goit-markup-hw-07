@@ -54,10 +54,10 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
-	.section  {
+	.section {
 		padding-top: 120px;
 		padding-bottom: 120px;
-}
+	}
 }
 
 .container {
@@ -97,7 +97,7 @@ button {
 	width: 100%px;
 	margin-right: auto;
 	margin-left: auto;
-	border-bottom: 1px solid var(--footer-text);
+	border-bottom: 1px solid #d9d9d9;
 }
 
 .header-nav {
@@ -123,14 +123,14 @@ button {
 	color: var(--main-text-color);
 }
 
-@media screen and (min-width: 768px){
-	.logo{
-	margin-right: 120px;
+@media screen and (min-width: 768px) {
+	.logo {
+		margin-right: 120px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.contacts-nav-link{
+	.contacts-nav-link {
 		font-size: 16px;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
@@ -139,7 +139,6 @@ button {
 	.logo {
 		margin-right: 0;
 	}
-	
 }
 
 .contacts-nav-link:hover,
@@ -161,7 +160,7 @@ button {
 	.item-nav-list:first-child {
 		margin-left: 76px;
 	}
-	}
+}
 
 .nav-list,
 .contacts-nav {
@@ -200,7 +199,6 @@ button {
 		border-radius: 2px;
 		background-color: var(--accent-color);
 	}
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -933,7 +931,6 @@ button {
 	}
 }
 
-
 .logo-footer {
 	font-family: "Raleway";
 	font-weight: 800;
@@ -983,8 +980,6 @@ button {
 	}
 }
 
-
-
 .footer-social-title {
 	font-weight: 600;
 	line-height: 1.5;
@@ -1018,11 +1013,10 @@ button {
 	background-color: var(--hover-color);
 }
 
-@media screen and (min-width:1200px) {
-	.footer-form{
+@media screen and (min-width: 1200px) {
+	.footer-form {
 		margin-left: 80px;
 	}
-	
 }
 
 .footer-form-title {
@@ -1131,7 +1125,8 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: left;
-	gap: 16px 24px;
+	row-gap: 16px;
+	column-gap: 24px;
 	padding-top: 48px;
 	padding-bottom: 48px;
 }
@@ -1151,6 +1146,10 @@ button {
 .portfolio-link:hover,
 .portfolio-link:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-thumb {
+	width: 396px;
 }
 
 .image-portfolio-mobile {
@@ -1199,4 +1198,50 @@ button {
 .portfolio-link:focus .portfolio-overlay {
 	opacity: 1;
 	transform: translateY(-100%);
+}
+
+@media screen and (min-width: 768px) {
+	.portfolio-buttons {
+		justify-content: center;
+		row-gap: 0;
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
+	.portfolio-list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		column-gap: 24px;
+		row-gap: 72px;
+		margin-bottom: 96px;
+	}
+
+	.portfolio-list:last-child {
+		justify-content: left;
+	}
+
+	.portfolio-item {
+		margin-bottom: 0;
+	}
+
+	.portfolio-thumb {
+		width: 356px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.portfolio-buttons {
+		padding-top: 96px;
+		padding-bottom: 72px;
+	}
+
+	.portfolio-list {
+		row-gap: 48px;
+		margin-bottom: 120px;
+	}
+
+	.portfolio-thumb {
+		width: 360px;
+	}
 }

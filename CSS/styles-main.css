@@ -749,12 +749,12 @@ button {
 	border-color: var(--accent-color);
 } */
 
-.portfolio-buttons {
+/* .portfolio-buttons {
 	display: flex;
 	justify-content: center;
 	column-gap: 24px;
 	margin-bottom: 72px;
-}
+} */
 
 .portfolio-list {
 	display: flex;
