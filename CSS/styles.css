@@ -266,6 +266,16 @@ button {
 	border-radius: 50%;
 	background: #e7e9fc;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	transition-property: background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-button-close:hover,
+.menu-button-close:focus {
+	border: transparent;
+	background-color: var(--accent-hover-color);
+	fill: var(--background-color);
 }
 
 .nav-list-mobile {
