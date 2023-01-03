@@ -230,7 +230,7 @@ button {
 	width: 32px;
 	height: 22px;
 	background-color: transparent;
-}
+	}
 
 @media screen and (min-width: 768px) {
 	.menu-button {
@@ -241,6 +241,9 @@ button {
 .mobile-menu {
 	display: none;
 }
+.mobile-menu.is-open{
+	display: block;
+}
 
 .mobile-menu {
 	position: absolute;
@@ -250,6 +253,8 @@ button {
 	padding: 0;
 	margin: 0;
 	background-color: var(--background-color);
+	z-index: 999;
+	overflow-y: scroll;
 }
 
 .menu-button-close {
