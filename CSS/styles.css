@@ -1164,7 +1164,6 @@ button {
 }
 
 .portfolio-item {
-	width: 396px;
 	margin-bottom: 48px;
 }
 
@@ -1181,9 +1180,9 @@ button {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* .portfolio-thumb {
+.portfolio-thumb {
 	width: 396px;
-} */
+}
 
 .image-portfolio-mobile {
 	width: 100%;
@@ -1255,13 +1254,12 @@ button {
 	}
 
 	.portfolio-item {
-		width: 356px;
 		margin-bottom: 0;
 	}
 
-	/* .portfolio-thumb {
+	.portfolio-thumb {
 		width: 356px;
-	} */
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -1275,11 +1273,7 @@ button {
 		margin-bottom: 120px;
 	}
 
-	.portfolio-item {
-		width: 356px;
-	}
-
-	/* .portfolio-thumb {
+	.portfolio-thumb {
 		width: 360px;
-	} */
+	}
 }
