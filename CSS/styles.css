@@ -1255,12 +1255,13 @@ button {
 	}
 
 	.portfolio-item {
+		width: 356px;
 		margin-bottom: 0;
 	}
 
-	.portfolio-thumb {
+	/* .portfolio-thumb {
 		width: 356px;
-	}
+	} */
 }
 
 @media screen and (min-width: 1200px) {
@@ -1274,7 +1275,11 @@ button {
 		margin-bottom: 120px;
 	}
 
-	.portfolio-thumb {
-		width: 360px;
+	.portfolio-item {
+		width: 356px;
 	}
+
+	/* .portfolio-thumb {
+		width: 360px;
+	} */
 }
