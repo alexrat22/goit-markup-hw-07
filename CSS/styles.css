@@ -367,12 +367,15 @@ button {
 @media screen and (min-width: 768px) {
 	.hero {
 		max-width: 768px;
+		min-height: 436px;
+		padding-bottom: 108px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	.hero {
 		max-width: 1440px;
+		min-height: 600px;
 		padding-top: 188px;
 		padding-bottom: 188px;
 	}
