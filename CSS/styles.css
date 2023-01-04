@@ -230,7 +230,7 @@ button {
 	width: 32px;
 	height: 22px;
 	background-color: transparent;
-	}
+}
 
 @media screen and (min-width: 768px) {
 	.menu-button {
@@ -241,7 +241,7 @@ button {
 .mobile-menu {
 	display: none;
 }
-.mobile-menu.is-open{
+.mobile-menu.is-open {
 	display: block;
 }
 
@@ -437,6 +437,7 @@ button {
 	height: 100%;
 	background-color: rgba(46, 47, 66, 0.4);
 	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	overflow-y: scroll;
 }
 
 .is-hidden {
@@ -447,9 +448,12 @@ button {
 
 .modal {
 	position: absolute;
-	top: 50%;
+	top: 96px;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translateX(-50%);
+	/* top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
 	width: 392px;
 	height: 579px;
 	padding-left: 16px;
