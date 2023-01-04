@@ -254,7 +254,6 @@ button {
 	margin: 0;
 	background-color: var(--background-color);
 	z-index: 999;
-	overflow-y: scroll;
 }
 
 .menu-button-close {
@@ -465,6 +464,8 @@ button {
 
 @media screen and (min-width: 768px) {
 	.modal {
+		top: 50%;
+		transform: translateY(-50%);
 		width: 408px;
 	}
 }
