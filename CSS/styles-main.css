@@ -431,7 +431,7 @@ button {
 	margin-right: 24px;
 } */
 
-.image-features {
+/* .image-features {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -439,12 +439,12 @@ button {
 	background-color: var(--secondary-background-color);
 	border-radius: 4px;
 	margin-bottom: 8px;
-}
+} */
 
-.icon-features {
+/* .icon-features {
 	width: 64px;
 	height: 64px;
-}
+} */
 
 /* .features-title, */
 .employees-name {
@@ -455,17 +455,17 @@ button {
 	margin-bottom: 8px;
 }
 
-.features-text,
-.employees-text,
-.footer-text,
-.portfolio-text {
+/* .features-text, */
+/* .employees-text, */
+/* .footer-text, */
+/* .portfolio-text {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-}
+} */
 
 /* Work Examples */
 
-.section-examples {
+/* .section-examples {
 	padding-top: 0;
 }
 
@@ -479,7 +479,7 @@ button {
 
 .examples-item:not(:last-child) {
 	margin-right: 24px;
-}
+} */
 
 /* Our Team */
 
@@ -487,7 +487,7 @@ button {
 	background-color: var(--secondary-background-color);
 } */
 
-.employees-title {
+/* .employees-title {
 	margin-bottom: 72px;
 }
 
@@ -503,7 +503,7 @@ button {
 
 .employees-list {
 	display: flex;
-}
+} */
 
 /* .employees-item {
 	background-color: var(--background-color);

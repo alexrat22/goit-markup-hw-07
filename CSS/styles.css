@@ -1003,6 +1003,7 @@ button {
 
 .footer-text {
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 	color: var(--footer-text);
 	width: 264px;
 	margin-top: 16px;
@@ -1212,6 +1213,11 @@ button {
 	line-height: 1.2;
 	color: var(--secondary-text-color);
 	margin-bottom: 8px;
+}
+
+.portfolio-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .portfolio-info {
