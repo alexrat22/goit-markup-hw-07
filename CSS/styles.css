@@ -1182,8 +1182,6 @@ button {
 
 .portfolio-thumb {
 	width: 396px;
-
-	height: 280px;
 }
 
 .portfolio-title {
@@ -1201,6 +1199,7 @@ button {
 	border: 0.5px solid var(--secondary-background-color);
 	border-top: none;
 }
+
 .portfolio-thumb {
 	position: relative;
 	overflow: hidden;
