@@ -485,7 +485,7 @@ button {
 	border-radius: 4px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
 	.modal {
 		width: 95%;
 		max-width: 392px;
@@ -495,7 +495,7 @@ button {
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 	.modal {
 		width: 408px;
 		height: 579px;
