@@ -477,6 +477,7 @@ button {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	height: 579px;
 	transform: translate(-50%, -50%);
 	padding-left: 16px;
 	padding-right: 16px;
@@ -489,8 +490,6 @@ button {
 	.modal {
 		width: 95%;
 		max-width: 392px;
-		height: 95%;
-		max-height: 579px;
 	}
 }
 
@@ -500,7 +499,6 @@ button {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 408px;
-		height: 579px;
 	}
 }
 
