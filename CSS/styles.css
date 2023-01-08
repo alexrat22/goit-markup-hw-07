@@ -151,12 +151,6 @@ button {
 	color: var(--accent-color);
 }
 
-@media screen and (max-width: 767px) {
-	.logo-web-footer {
-		margin-left: 155px;
-	}
-}
-
 @media screen and (min-width: 1200px) {
 	.item-nav-list:first-child {
 		margin-left: 76px;
@@ -224,7 +218,7 @@ button {
 .menu-button {
 	display: inline-flex;
 	position: absolute;
-	top: 24px;
+	top: 26px;
 	right: 24px;
 	padding: 0;
 	margin: 0;
@@ -244,7 +238,8 @@ button {
 }
 
 .mobile-menu.is-open {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 
 .mobile-menu {
@@ -252,6 +247,7 @@ button {
 	top: 0;
 	left: 0;
 	width: 100%;
+	/* height: 100%; */
 	padding: 0;
 	margin: 0;
 	background-color: var(--background-color);
@@ -289,7 +285,7 @@ button {
 .nav-list-mobile {
 	padding-top: 80px;
 	margin-left: 40px;
-	padding-bottom: 284px;
+	margin-bottom: auto;
 }
 
 .item-nav-list-mobile {
@@ -353,7 +349,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 56px;
+	gap: 45px;
 	margin-bottom: 40px;
 }
 
@@ -411,7 +407,7 @@ button {
 }
 
 .hero-title {
-	width: 319px;
+	max-width: 319px;
 	font-weight: 700;
 	font-size: 36px;
 	text-align: center;
@@ -482,7 +478,7 @@ button {
 	top: 96px;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 392px;
+	width: 95%;
 	height: 579px;
 	padding-left: 16px;
 	padding-right: 16px;
@@ -490,6 +486,11 @@ button {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 }
+
+@media screen and (min-width: 428px) {
+	.modal {
+		width: 392px;}
+	}
 
 @media screen and (min-width: 768px) {
 	.modal {
@@ -646,10 +647,15 @@ button {
 .policy-label {
 	display: flex;
 	align-items: center;
-	font-size: 12px;
+	font-size: 9px;
 	letter-spacing: 0.04em;
 	color: #757575;
 }
+
+@media screen and (min-width: 428px) {
+	.policy-label {
+		font-size: 12px;}
+	}
 
 .policy-link {
 	margin-left: 4px;
@@ -982,19 +988,14 @@ button {
 }
 
 .logo-footer {
+	display: flex;
+	justify-content: center;
 	font-family: "Raleway";
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
-	word-spacing: -4px;
 	color: var(--secondary-background-color);
-	text-align: center;
-}
-
-@media screen and (max-width: 767px) {
-	.logo-web-footer {
-		margin-left: 140px;
-	}
+	
 }
 
 .footer-text {
@@ -1003,13 +1004,11 @@ button {
 	color: var(--footer-text);
 	width: 264px;
 	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
-	.footer-text {
-		margin-left: 65px;
-	}
-
 	.footer-social {
 		margin-bottom: 72px;
 	}
