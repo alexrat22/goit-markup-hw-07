@@ -101,6 +101,10 @@ button {
 	border-bottom: 1px solid #d9d9d9;
 }
 
+.header-nav {
+	position: relative;
+}
+
 .logo {
 	display: block;
 	font-family: "Raleway";
@@ -239,7 +243,7 @@ button {
 }
 
 .mobile-menu {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -280,7 +284,7 @@ button {
 
 .nav-list-mobile {
 	padding-top: 80px;
-	margin-left: 40px;
+	text-align: center;
 	margin-bottom: auto;
 }
 
@@ -313,7 +317,7 @@ button {
 }
 
 .contacts-nav-mobile {
-	margin-left: 40px;
+	text-align: center;
 }
 
 .contacts-nav-link-mobile {
@@ -471,11 +475,9 @@ button {
 
 .modal {
 	position: absolute;
-	top: 96px;
+	top: 50%;
 	left: 50%;
-	transform: translateX(-50%);
-	width: 95%;
-	height: 579px;
+	transform: translate(-50%, -50%);
 	padding-left: 16px;
 	padding-right: 16px;
 	background-color: #fcfcfc;
@@ -483,10 +485,14 @@ button {
 	border-radius: 4px;
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 767px) {
 	.modal {
-		width: 392px;}
+		width: 95%;
+		max-width: 392px;
+		height: 95%;
+		max-height: 579px;
 	}
+}
 
 @media screen and (min-width: 768px) {
 	.modal {
@@ -494,6 +500,7 @@ button {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 408px;
+		height: 579px;
 	}
 }
 
@@ -650,8 +657,9 @@ button {
 
 @media screen and (min-width: 428px) {
 	.policy-label {
-		font-size: 12px;}
+		font-size: 12px;
 	}
+}
 
 .policy-link {
 	margin-left: 4px;
@@ -991,7 +999,6 @@ button {
 	font-size: 18px;
 	line-height: 1.17;
 	color: var(--secondary-background-color);
-	
 }
 
 .footer-text {
