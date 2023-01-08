@@ -419,7 +419,7 @@ button {
 
 @media screen and (min-width: 768px) {
 	.hero-title {
-		width: 496px;
+		max-width: 496px;
 		font-size: 56px;
 		line-height: 1.07;
 		margin: 0 auto 48px auto;
@@ -999,6 +999,12 @@ button {
 	font-size: 18px;
 	line-height: 1.17;
 	color: var(--secondary-background-color);
+}
+
+@media screen and (min-width: 768px) {
+	.logo-footer {
+		justify-content: left;
+	}
 }
 
 .footer-text {
